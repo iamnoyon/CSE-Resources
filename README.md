@@ -12,7 +12,7 @@ A collection of all resources for CSE Department, RU
 ***Email: mrnoyon.cse@gmail.com***
 
 ## Usage or Download
-You may clone the projects to get the whole project. To clone install [Git](https://git-scm.com/) to your machine and type this command  
+You may clone the projects to get the whole project. To clone, install [Git](https://git-scm.com/) to your machine and type this command  
 ```git
 git clone https://github.com/iamnoyon/CSE-Resources.git
 ```
