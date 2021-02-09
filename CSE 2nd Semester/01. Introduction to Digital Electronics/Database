@@ -1,0 +1,59 @@
+#Learning to create a Database#
+
+//
+Create for new database:
+------------------------
+Syntax	:create database database_name;
+Example	: create database educational_institute;
+
+Create for new table in a database:
+-----------------------------------
+Syntax	:create table table_name(column_name1 data_type(size),column_name2 data_type(size),......comlumn_nameN data_type(size));
+Example	: create table student_information(student_roll varchar(12),student_name varchar(22),department_name varchar(22),student_address varchar(22));
+
+Insert data into a database:
+----------------------------
+Syntax	:insert into table_name values('column_name1','column_name2','......column_nameN');
+Example	:insert into student_information values('101','Md.Asaduzzaman','CSE','Rangpur');
+//
+
+New column add in a table:
+--------------------------
+Syntax	:alter table table_name add column_name data_type(size);
+Example	:alter table student_information add contact_no varchar(22);
+
+Old column delete from a table:
+-------------------------------
+Syntax	:alter table table_name drop column column_name;
+Example	:alter table student_information drop column contact_no;
+
+Drop database:
+--------------
+Syntax	:drop database database_name;
+Example	:drop database educational_institute;
+
+Drop table from a database:
+---------------------------
+Syntax	:drop table table_name;
+Example	:drop table student_information;
+
+Update data from a table:
+-------------------------
+Syntax	:update table_name column_name='value' where column_name='value';
+Example	:update student_information student_name='Md. Mohaiminul Islam' where student_roll='101';
+
+Delete data from a table:
+-------------------------
+Syntax	:delete table_name where column_name='value';
+Example	:delete student_information where student_roll='101';
+
+All data showing to display from a table:
+-----------------------------------------
+Syntax	:select * from table_name where column_name='value';
+Example	:select * from student_information where student_roll='101';
+
+Fixed data showing to display from a table:
+-------------------------------------------
+Syntax	:select column_name1,column_name2,.....column_nameN from table_name where column_name='value';
+Example	:select student_name,student_address from student_information where stduent_roll='101';
+
