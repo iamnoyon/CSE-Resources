@@ -1,0 +1,2 @@
+http://electronics-course.com/ripple-counter
+https://www.electronics-tutorials.ws/counter/count_2.html
