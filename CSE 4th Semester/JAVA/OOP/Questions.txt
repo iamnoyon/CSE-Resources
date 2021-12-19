@@ -1,0 +1,8 @@
+What's the difference between random access file and sequential access file?
+
+Answer:
+"Sequential file access" allows data to be read from a file or written to a file from beginning to end. It is not possible to read data starting in the middle of the file, nor is it possible to write data to the file starting in the middle using sequential methods.
+
+The input and output streams in Java are sequential.
+
+A "random access files", on the other hand, permit nonsequential, or random access to a file's contents. You can "seek" to any particular location within a file specifying the number of bytes.
