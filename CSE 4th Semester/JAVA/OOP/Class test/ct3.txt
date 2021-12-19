@@ -1,0 +1,8 @@
+Class Test on Home Work [3] - 28-10-2018
+Total Marks: 8.75
+.
+
+(1) How data hiding is accomplished in Java? Explain. [Mark-3]
+(2) What is meant by data binding? [Mark-1]
+(3) How can you create prefix and postfix forms of the increment and decrement operators? [Mark-3]
+(4) Why is main method static in Java? Explain. [Mark-1.75]
