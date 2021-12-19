@@ -1,0 +1,5 @@
+https://www.geeksforgeeks.org/interfaces-in-java/?fbclid=IwAR2WbcbJvcKiIOWhG5XfN57xOKsfmsfHK-iBRMGx5ih0LnZYA2xGQ7gyR00
+
+https://www.javatpoint.com/abstract-class-in-java?fbclid=IwAR2pwon1mRysflzxqjD_MPv8JvaSyMt7n8PTVSzy8Hh0KiEm_Gm2_WWvdqQ
+
+https://www.javatpoint.com/difference-between-abstract-class-and-interface?fbclid=IwAR3kj97v3a9sCdAL_WGmY0LbLE1yZ1-wDXqfVznxtJzGty8X7IEMO7hCn2g

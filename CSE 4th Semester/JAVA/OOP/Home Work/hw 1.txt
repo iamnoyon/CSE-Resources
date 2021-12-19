@@ -1,0 +1,14 @@
+
+Home Work 2 (OOP with Java)
+(Submit before Thursday 2 PM)
+.
+1. Define Object Oriented Programming (OOP). What are features of OOP? Describe them.
+2. How are data and functions organized in an object-oriented program?
+3. What are the differences between OOP and Procedural Programming?
+4. What are the differences between ‘class’ and ‘structure’?
+5. How is Java more secured than other languages?
+6. Why is Java known as platform-independent language?
+7. What types of naming convention should be followed when declaring package, variables, methods and constants?
+8. What are Java package and Java applets?
+9. Differentiate between Java and C++ as object oriented programming language.
+10. Give and explain the basic structure of Java program.
