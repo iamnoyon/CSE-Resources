@@ -1,6 +1,7 @@
 # CSE-Resources #
 
-A collection of all resources for CSE Department, RU
+A collection of all resources for CSE Department, RU<br>
+**N.B: Some files are missing here. Their FileSize is _LARGER_ to upload github, Contact if Needed.** 
 
 ## Who Collects?
 **Name: _Md. Mahfujar Rahman (Noyon)_** <br> 
