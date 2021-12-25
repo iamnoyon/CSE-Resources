@@ -1,0 +1,7 @@
+-classpath 'D:\\Education\\6th Semester\\LAB\\Software Engineering\\SchoolManagementSystem\\build\\classes\\java\\main;D:\\Education\\6th Semester\\LAB\\Software Engineering\\SchoolManagementSystem\\build\\resources\\main'
+-d 'D:\\Education\\6th Semester\\LAB\\Software Engineering\\SchoolManagementSystem\\build\\docs\\javadoc'
+-doctitle 'SchoolManagementSystem API'
+-quiet 
+-windowtitle 'SchoolManagementSystem API'
+'D:\\Education\\6th Semester\\LAB\\Software Engineering\\SchoolManagementSystem\\src\\main\\java\\SchoolManagementSystem\\Main.java'
+'D:\\Education\\6th Semester\\LAB\\Software Engineering\\SchoolManagementSystem\\src\\main\\java\\SchoolManagementSystem\\user.java'
