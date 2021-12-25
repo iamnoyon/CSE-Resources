@@ -1,0 +1,7 @@
+Read about 
+  1. DHCP server
+  2. IP Class
+  3. Classless addressing 
+  4. Subnet mask
+  5. how to decide subnet mask?
+  6. advantage and disadvantage of subnet masking
