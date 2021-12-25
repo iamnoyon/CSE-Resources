@@ -1,0 +1,16 @@
+%frequency response of a system
+clc
+clear all
+close all
+b=[1];
+a=[1,-0.8];
+w=0:0.01:2*pi;
+h=freqz(a,b,w);
+x=abs(h);
+y=angle(h);
+plot(w/pi,20*log10(x))
+figure
+plot(w/pi,y.*180/pi)
+
+
+

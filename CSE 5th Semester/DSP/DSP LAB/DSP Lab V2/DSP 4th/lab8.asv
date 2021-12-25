@@ -1,0 +1,27 @@
+clc
+clear all
+close all
+fs=1000;
+t=0:1/fs:1;
+L=500;
+x=5*cos(2*pi*100*t)+3*cos(2*pi*50*t)+randn(size(t));
+q=hamming(L);
+q1=hanning(L);
+q2=kaiser(L,12.5);
+q3=rectwin(L);
+a=pwelch(x,q,50,fs,q);
+a1=psd(x,L,fs,q1);
+a2=psd(x,L,fs,q2);
+a3=psd(x,L,fs,q3);
+%b=pwelch(x,q,L-1,fs);
+f=0:L/2;
+plot(t,x)
+figure
+plot(f,a)
+hold on
+plot(f,a1,'r')
+hold on
+plot(f,a2,'black')
+hold on
+plot(f,a3,'g')
+legend('Hamming','hanning','kaiser','rectgular')
