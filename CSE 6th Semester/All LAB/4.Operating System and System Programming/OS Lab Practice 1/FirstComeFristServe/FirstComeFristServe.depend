@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1438925127 source:c:\users\asus\desktop\codemarshal\project\operatintsystem\firstcomefristserve\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1438964007 source:i:\c_programming\operatintsystem\firstcomefristserve\main.c
+	<stdio.h>
+	<stdlib.h>
+

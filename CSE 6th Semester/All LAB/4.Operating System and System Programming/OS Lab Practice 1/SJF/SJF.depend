@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1438964638 source:c:\users\asus\desktop\codemarshal\project\operatintsystem\sjf\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1576733084 source:i:\c_programming\operatintsystem\sjf\main.c
+	<stdio.h>
+	<stdlib.h>
+

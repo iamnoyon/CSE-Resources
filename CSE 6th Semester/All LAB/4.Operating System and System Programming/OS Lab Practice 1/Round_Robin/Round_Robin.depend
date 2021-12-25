@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1439788290 source:c:\users\asus\desktop\codemarshal\project\operatintsystem\round_robin\main.cpp
+	<iostream>
+	<cstdio>
+	<cmath>
+	<cstdlib>
+
+1439788290 source:i:\c_programming\operatintsystem\round_robin\main.cpp
+	<iostream>
+	<cstdio>
+	<cmath>
+	<cstdlib>
+
