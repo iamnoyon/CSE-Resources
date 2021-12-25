@@ -1,0 +1,19 @@
+  How to setup winBGIm library in codeblock 
+BGI (Borland Graphics Interface) is ancient as is turbo c++ IDE but nevertheless they are still used in our schools and colleges. Plus they do not work in windows environment (support for native DOS has been completely removed in windows vista/7).If you try to compile the source code with including “graphics.h” in code::blocks IDE then is show error because “graphics.h” only run in turbo.For code::blocks you have to setup winBGIm library. 
+There are many alternative to winBGIm ,But BGI is good for beginners because you don’t have to worry about whole new fancy functions,classes etc. 
+WinBGIm is BGI graphics library ported to computer by by Michael Main at the University of Colorado.
+Before i start, i must tell you that this guide is written in accordance with code::blocks IDE.
+
+Lets get started:
+1.	First download WinBGIm from http://winbgim.codecutter.org/
+2.	Extract it.
+3.	Copy graphics.h and winbgim.h files in include folder of your compiler directory
+4.	Copy libbgi.a to lib folder of your compiler directory
+5.	In code::blocks open Settings >> Compiler and debugger >>linker settings
+6.	click Add button  in link libraries part and browse and select libbgi.a file
+7.	In right part (ie. other linker options) paste commands 
+-lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32 
+8.	click Ok
+Finally, you can now compile source code using “graphics.h”.You can try this by creating "anlog clock" and you can copy source code from my post  here . The WinBGIm library gives you an alternative as I hope, you found this guide helpful and in case you need my help just leave a message.
+
+**While compiling if you got error message in line 320 of graphics.h :” redefination of int right” then change int right=0 to int top = 0.Although,you got other error then leave the message.

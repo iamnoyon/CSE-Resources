@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1582527939 source:d:\shitol sarker\3rd year even\computer graphics\lab\translation_line\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+	<graphics.h>
+
